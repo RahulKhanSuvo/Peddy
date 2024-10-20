@@ -3,7 +3,6 @@ import { TbGenderHermaphrodite } from "react-icons/tb";
 import { PiCurrencyDollarSimpleBold } from "react-icons/pi";
 import { AiOutlineLike } from "react-icons/ai";
 const Pet = ({ pet }) => {
-  console.log(pet);
   const { image, pet_name, breed, gender, date_of_birth, price } = pet;
   return (
     <div className="border p-5 rounded-xl">

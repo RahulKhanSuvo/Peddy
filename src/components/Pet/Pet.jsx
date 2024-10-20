@@ -27,7 +27,7 @@ const Pet = ({ pet }) => {
           </p>
           <p className="flex gap-1 items-center">
             <PiCurrencyDollarSimpleBold />
-            Price: {price}
+            Price: {price} $
           </p>
         </div>
       </div>

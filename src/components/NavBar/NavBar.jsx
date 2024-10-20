@@ -3,8 +3,8 @@ import { IoPersonOutline } from "react-icons/io5";
 const NavBar = () => {
   return (
     <div className="flex font-lato justify-between mx-4 mt-2 md:mt-9">
-      <div className="flex gap-2 md:gap-4 items-center">
-        <img src={logo} alt="" />
+      <div className="flex gap-2 items-center">
+        <img src={logo} alt="logo" />
         <span className="font-black text-2xl md:text-3xl">Peddy</span>
       </div>
       <div className=" hidden md:flex items-center gap-8">

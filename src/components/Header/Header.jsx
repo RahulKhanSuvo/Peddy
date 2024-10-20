@@ -1,3 +1,4 @@
+import Banner from "../Banner/Banner";
 import NavBar from "../NavBar/NavBar";
 
 const Header = () => {
@@ -5,6 +6,7 @@ const Header = () => {
     <>
       <div className="container mx-auto">
         <NavBar></NavBar>
+        <Banner></Banner>
       </div>
     </>
   );
